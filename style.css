@@ -1,0 +1,150 @@
+/* Import GoogleFont */
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+.color {
+    color: hsl(171, 66%, 44%);
+    color: hsl(233, 100%, 69%);
+    color: hsl(210, 10%, 33%);
+    color: hsl(201, 11%, 66%);
+}
+
+.font {
+    font-family: 'Bai Jamjuree', sans-serif;;
+}
+
+* {
+margin: 0;
+padding: 0;
+text-decoration: none;
+list-style: none;
+font-family: 'Bai Jamjuree', sans-serif;
+font-size: 18px;
+box-sizing: border-box;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    background-image: url('img/bg-header-desktop.png');
+    position: fixed;
+    width: 100%;
+    font-size: 1rem;
+    padding: 30px 10px;
+    height: 60px;
+}
+
+.brand-title img {
+    height: 2rem;
+    vertical-align: middle;
+    cursor: pointer;
+    color: hsl(171, 66%, 44%);
+    padding-right: 5px;
+}
+
+.brand-title {
+    color: hsl(171, 66%, 44%);
+    font-size: 1.2rem;
+    font-weight: bold;
+    top: 2rem;
+}
+
+.navbar-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    color:white;
+    padding: 1rem;
+    display: block;
+}
+
+.navbar-links li a:hover {
+    background-color: hsl(171, 66%, 44%);
+    background-image: url('img/bg-header-desktop.png');
+    border-radius: 50px 0;
+}
+
+.toggle-button {
+    position: absolute;
+    top: 2rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+#langue {
+    background-color: grey;
+    color: white;
+    vertical-align: middle;
+}
+
+#flag {
+    height: 0px;
+    vertical-align: middle;
+}
+
+@media (max-width: 770px) {
+
+    .toggle-button {
+        display: flex;
+        top: 2rem;
+    }
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: black;
+        height: fit-content;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+        padding-top: 5px;
+    }
+
+    .navbar-links li a:hover {
+        background-color: hsl(171, 66%, 44%);
+        border-radius: 30px;
+        background-image: url('img/bg-header-mobile.png');
+
+    }
+
+    .navbar-links li {
+        text-align: center;
+
+    }
+
+    .navbar-links li a {
+        padding: 0.5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+}
+

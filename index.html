@@ -5,33 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="L'outil Clipboard permet de réaliser des copiers collers simplement et propose un gestionnaire. C'est gratuit et disponible sur MAC et PC.">
+    <link rel="stylesheet" href="style.css">
     <title>Clipboard - Le presse Papier</title>
 </head>
 <body>
-    <header>
+    
 
         <!-- Menu de navigation -->
         <nav class="navbar">
-            <img src="img/logo.svg" alt="logo" class="">
-            <p class="nomLogo">Clipboard</p>
-            <div class="menu">
-                <ul class="">
-                    <li class="">Fonctionnalités</li>
-                    <li class="">Cas d'utilisation</li>
-                    <li class="">FAQ</li>
-                    <li>
-                        <label for="langue"></label>
-                        <select name="langue" id="langue">
-                            <option value="fr" selected>Français</option>
-                            <option value="en">English</option>
-                        </select>
-                    </li>
-                    
+            <div class="brand-title"><img src="img/logo.svg" alt="logo"/>Clipboard</div>
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="navbar-links">
+                <ul>
+                    <li><a href="#">Fonctionnalités</a></li>
+                    <li><a href="#">Cas d'utilisation</a></li>
+                    <li><a href="#">FAQ</a></li>
                 </ul>
             </div>
         </nav>
-        
-    </header>
+        <!--Fin du menu de navigation-->
 
 
     <main>
@@ -203,5 +199,5 @@
     <!--Fin du footer-->
 
 </body>
-
+<script src="script.js" defer></script>
 </html>
