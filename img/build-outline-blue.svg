@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   class="ionicon"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg938"
+   sodipodi:docname="build-outline-blue.svg"
+   inkscape:version="1.1.2 (b8e25be8, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs942">
+    <linearGradient
+       id="linearGradient1188"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#26baa4;stop-opacity:1;"
+         offset="0"
+         id="stop1186" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="namedview940"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="1.1924577"
+     inkscape:cx="221.3915"
+     inkscape:cy="260.38659"
+     inkscape:window-width="1323"
+     inkscape:window-height="771"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg938" />
+  <title
+     id="title932">Build</title>
+  <path
+     d="m 393.87,190 c -12.51892,12.43864 -32.73108,12.43864 -45.25,0 l -26.57,-26.57 c -12.45073,-12.51783 -12.45073,-32.74217 0,-45.26 L 382.19,58 c 0.51595,-0.496427 0.35828,-1.35837 -0.3,-1.64 -38.82,-16.64 -89.15,-8.16 -121.11,23.57 -30.58,30.35 -32.32,76 -21.12,115.84 3.24457,11.54623 -0.25478,23.93686 -9.06,32.08 L 64,380 C 43.24372,398.40309 42.280557,430.48947 61.895542,450.10446 81.510527,469.71944 113.59691,468.75628 132,448 L 184.96452,390.51218 285.86,281 c 8.03499,-8.65199 20.18879,-12.16352 31.6,-9.13 39.54,10.59 84.54,8.6 114.72,-21.19 32.49,-32 39.5,-88.56 23.75,-120.93 -0.30542,-0.60921 -1.1174,-0.74116 -1.6,-0.26 z"
+     fill="none"
+     stroke="currentColor"
+     stroke-linecap="round"
+     stroke-miterlimit="10"
+     stroke-width="32"
+     id="path934"
+     style="fill-rule:evenodd;stroke:#26baa4;stroke-opacity:1"
+     sodipodi:nodetypes="ccccccccccscccccccc" />
+  <circle
+     cx="96"
+     cy="416"
+     r="16"
+     id="circle936"
+     style="stroke:#26baa4;stroke-opacity:1;fill-rule:evenodd;fill:#26baa4;fill-opacity:1" />
+  <metadata
+     id="metadata1447">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Build</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
