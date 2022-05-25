@@ -599,7 +599,7 @@ footer>.col2>p {
 
 /*Fin du footer*/
 
-@media screen and (min-width: 440px) and (max-width:1439px) {
+@media screen and (min-width: 440px){
 
     .toggle-button {
         display: flex;
