@@ -614,6 +614,7 @@ footer>.col2>p {
     }
 
     .navbar {
+        display: block;
         flex-direction: column;
         background-color: black;
         z-index: 1;
