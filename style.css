@@ -368,11 +368,12 @@
 /*avis clients*/
 
 .container-avis {
+    display: block;
     flex-direction: row;
     color: black;
     position: relative;
     background-color: #6173ff1b;
-    top: 250px;
+    top: 200px;
     justify-content: space-around;
     align-items: center;
     padding: 20px;
@@ -677,9 +678,52 @@ footer>.col2>p {
         align-items: center;
     }
 
+    .container-desc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .start-block, .center-block, .end-block {
+        display: block;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        padding: 20px;
+        margin: 10px;
+        height: 300px;
+    
+    }
+    
+    .container-desc h3 {
+        font-size: 1.2rem;
+    }
+    
+    .container-desc p {
+        font-size: 1.1rem;
+    }
+    
+    .icone {
+        height: 70px;
+        width: 70px;
+    }
+
     .container-mobile {
         display: block;
         width: 100%;
+    }
+
+    .container-avis {
+        width: 100%;
+        padding: 5px;
+    }
+
+    .container-avis>.avis {
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        width: 50%;
     }
 
     .container-telechargement {
