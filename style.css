@@ -24,54 +24,46 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    background-color: black;
-    color: white;
     position: fixed;
     left: 0;
     top: 0;
-    padding: 20px 5px;
     z-index: 1;
     background-image: url('img/bg-header-desktop.png');
     background-size: cover;
     width: 1440px;
+    background-color: black;
+    color: white;
 }
 
 #logo {
  width: 3.8rem;
-}
-
-.brand-title img {
-    width: 2.8rem;
-    vertical-align: middle;
-    cursor: pointer;
-    color: hsl(171, 66%, 44%);
-    padding: 10px;
-    font-size: 24px;
-    font-weight: bolder;
+ vertical-align: middle;
 }
 
 .brand-title {
     color: hsl(171, 66%, 44%);
     font-size: 1.4rem;
     font-weight: bold;
-    top: 2rem;
 }
 
-.navbar-links ul {
-    margin: 0;
-    padding: 0;
+.brand-title>img {
+    width: 2.8rem;
+    cursor: pointer;
+    color: hsl(171, 66%, 44%);
+    font-size: 24px;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+.navbar-links>ul {
     display: flex;
 }
 
-.navbar-links li {
-    list-style: none;
-}
-
-.navbar-links li a {
-    text-decoration: none;
+.navbar-links, li a {
     color:white;
-    padding: 1rem;
     display: block;
+    padding: 10px 20px;
+
 }
 
 .navbar-links li a:hover {
@@ -80,20 +72,22 @@
 
 .toggle-button {
     position: absolute;
-    top: 2rem;
+    top: 0.5rem;
     right: 1rem;
     display: none;
     flex-direction: column;
     justify-content: space-between;
-    width: 30px;
-    height: 21px;
+    width: 4rem;
+    height: 4rem;
+
 }
 
 .toggle-button .bar {
-    height: 3px;
+    height: 2rem;
     width: 100%;
     background-color: hsl(171, 66%, 44%);
     border-radius: 10px;
+    vertical-align: middle;
 }
 
 /* Fin du menu de Navigation*/
@@ -105,7 +99,7 @@
     justify-content: space-between;
     position: relative;
     align-items: center;
-    top: 108px;
+    top: 68px;
     background-color: hsl(171, 49%, 55%);
     width: 1440px;
 }
@@ -123,6 +117,8 @@
 }
 
 .container-accroche>.col1>p {
+    font-size: 0.8rem;
+    align-items: center;
     padding: 10px;
 }
 
@@ -142,25 +138,23 @@
     padding-right: 20px;
     padding-left: 20px;
     font-weight: bold;
-    height: 200px;
+    height: 10rem;
     min-width: 50%;
-    margin-top: auto;
-    margin-bottom: auto;
     text-align:center;
-    padding: 10px;
+    padding: 20px;
 }
 
-.title {
+.container-accroche>.col2>p {
     display: flex;
     justify-content: center;
     align-items: center;
     font-weight: bold;
     font-size: 1.4rem;
     margin: 10px;
+    padding: 15px;
     background-color: rgba(255, 255, 255, 0.316);
     border-radius: 50px;
-    width: 30rem;
-    height: 5rem;
+    width: 80%;
 }
 
 .btn {
@@ -168,9 +162,8 @@
     background-color: hsl(233, 100%, 69%);
     color: white;
     width: 12rem;
-    height: 2.6rem;
-    text-align:center;
-    padding: 5px;
+    text-align: center;
+    padding: 10px;
 }
 
 .telecharger {
@@ -179,11 +172,11 @@
     align-items: center;
     vertical-align: middle;
     border: 2px solid white;
-    font-weight: bold;
+    margin-top: 5px;
 }
 
 .telecharger>img {
-    height: 22px;
+    height: 1.3rem;
     padding-left: 5px;
 }
 
@@ -191,6 +184,7 @@
     color: white;
     font-size: 0.7rem;
     text-decoration: underline;
+    padding-top: 3px;
 }
 
 .logoPreview {
@@ -203,29 +197,28 @@
 /* Le bloc d'information */
 .container-infos {
     display: flex;
-    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
     background-color: hsl(233, 100%, 69%);
     color: white;
     position: relative;
-    top: 105px;
+    top: 68px;
+    padding: 10px 15px;
     width: 1440px;
 }
 
 .container-infos>ul {
-    vertical-align: middle;
-    padding: 20px;
-}
-
-.container-infos ul, li {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content:center;
     text-align: center;
-    align-items: center;
-} 
+    vertical-align: middle;
+    padding: 20px;
+    font-size: 0.9rem;
+}
 
-.container-infos, li {
-    display: flex;
+.container-infos>ul>li {
+    display: block;
     flex-direction: column;
     justify-content: space-evenly;
     padding: 0 60px;
@@ -234,10 +227,8 @@
 .container-infos>ul p:first-child {
     font-weight: bold;
 }
-
 #line {
-    background-image: url('img/white-line-strait.svg');
-    width: 20px;
+    height: 30px;
 }
 /* Fin du bloc d'information */
 
@@ -257,9 +248,8 @@
     background-color: hsl(210, 10%, 33%);
     padding: 20px;
     border-radius: 60px;
-    height: 330px;
-    width: 370px;
     color: white;
+    margin: 20px 30px;
 
 }
 
@@ -282,8 +272,8 @@
     margin-right: auto;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 90px;
-    width: 90px;
+    height: 4rem;
+    width: 4rem;
 }
 
 .start-block>div#mobile {
@@ -317,8 +307,8 @@
 .container-mobile>.col-mobile1>div#hero {
     flex-direction: row;
     align-items: center;
-    height: 300px;
-    width: 300px;
+    height: 15rem;
+    width: 15rem;
     margin-left: auto;
     margin-right: auto;
     background-repeat: no-repeat;
@@ -347,8 +337,8 @@
 .col-mobile2>a {
     display: inline-block;
     justify-content: center;
-    width: 150px;
-    height: 50px;
+    width: 10rem;
+    height: 3rem;
     background-color: hsl(233, 100%, 69%);
     border-radius: 30px;
     color: white;
@@ -428,8 +418,8 @@
     align-items: center;
     background-color: #4c545dd2;
     color: white;
-    width: 650px;
-    height: 210px;
+    width: 50%;
+    height: 12rem;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -463,7 +453,7 @@
     text-align: center;
     top: 200px;
     padding: 50px;
-    height: 300px;
+    height: 17rem;
     background-color:hsl(171, 49%, 55%);
     background-image: url('img/bg-header-desktop.png');
     color: black;
@@ -561,29 +551,30 @@ footer>.col1>h3 {
     vertical-align: middle;
 }
 
-#icone-twitter {
+#icone-twitter, #icone-insta, #icone-fb {
     display: block;
     justify-content: center;
     align-items: center;
-    background: rgba(29,161,242,1);
-    height: 40px;
-    width: 40px;
+    height: 2rem;
+    width: 2rem;
     border-radius: 50%;
+
+}
+#icone-twitter {
+    background: rgba(29,161,242,1);
+
 }
 
 #icone-insta {
     background: #E4405F;
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
+
 }
 
 #icone-fb {
     background: #1877F2;
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
 }
+
+
 
 .col3>ul {
     padding: 10px;
@@ -596,7 +587,8 @@ footer>.col1>h3 {
 }
 
 #copyright {
-    height: 10px;
+    height: 1rem;
+    vertical-align: middle;
     padding-right: 5px;
 }
 
@@ -606,6 +598,7 @@ footer>.col1>h3 {
 
     .toggle-button {
         display: flex;
+        width: 50px;
     }
 
     .navbar-links {
@@ -619,6 +612,8 @@ footer>.col1>h3 {
         background-color: black;
         z-index: 1;
         width: 100%;
+        background-image: url('img/bg-header-mobile.png');
+
     }
 
     #logo {
@@ -627,7 +622,7 @@ footer>.col1>h3 {
 
     .navbar-links>ul {
         flex-direction: column;
-        padding-top: 5px;
+        padding-top: 10px;
         text-align: center;
     }
 
@@ -650,40 +645,47 @@ footer>.col1>h3 {
         justify-content: space-between;
         position: relative;
         align-items: center;
-        top: 108px;
         background-color: hsl(171, 49%, 55%);
         width: 100%;
+        padding: 10px;
     }
 
-    .title {
+    .container-accroche>.co1>p {
+        font-size: 0.6rem;
+    }
+    .container-accroche>.col2>p {
+        width: 80%;
+        padding-bottom: 0;
+        padding-top: 0;
         font-size: 1.2rem;
-        width: 20rem;
-        height: 4rem;
     }
 
+    .preview {
+        margin-top: 0;
+        padding: 0;
+    }
+
+    .container-infos {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+    }
     .container-infos>ul {
-        display: block;
-        flex-direction: column;
-    }
-    
-    .container-infos, li {
         display: flex;
-        padding: 0 20px;
-        width: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .container-desc {
-        display: block;
+        display: flex;
+        flex-direction: column;
         width: 100%;
+        align-items: center;
         justify-content: space-around;
-        align-items: center;
-    }
-
-    .container-desc {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
     }
     
     .start-block, .center-block, .end-block {
@@ -693,7 +695,7 @@ footer>.col1>h3 {
         justify-content: space-around;
         padding: 20px;
         margin: 10px;
-        height: 300px;
+        width: 80%;
     
     }
     
@@ -706,8 +708,8 @@ footer>.col1>h3 {
     }
     
     .icone {
-        height: 70px;
-        width: 70px;
+        height: 5rem;
+        width: 5rem;
     }
 
     .container-mobile {
