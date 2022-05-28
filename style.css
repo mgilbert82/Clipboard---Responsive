@@ -399,11 +399,10 @@
 
 .brand-logos>ul {
     display: inline-flex;
+    justify-content: space-evenly;
     width: 100%;
     align-items: center;
     padding: 20px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .logo {
@@ -418,7 +417,7 @@
     align-items: center;
     background-color: #4c545dd2;
     color: white;
-    width: 50%;
+    width: 40%;
     height: 12rem;
     margin-left: auto;
     margin-right: auto;
@@ -594,7 +593,7 @@ footer>.col1>h3 {
 
 /*Fin du footer*/
 
-@media screen and (min-width: 440px) and (max-width:1439px){
+@media screen and (max-width: 640px) {
 
     .toggle-button {
         display: flex;
@@ -724,7 +723,7 @@ footer>.col1>h3 {
 
     .container-avis>.avis {
         display: block;
-        width: 100%;
+        width: 70%;
         padding: 10px;
     }
 
@@ -733,7 +732,7 @@ footer>.col1>h3 {
         flex-direction: row;
         justify-content: center;
         font-weight: bold;
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         text-align: center;
         padding: 10px;
     }
