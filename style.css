@@ -149,7 +149,7 @@
     justify-content: center;
     align-items: center;
     font-weight: bold;
-    font-size: 1.4rem;
+    font-size: 1.4em;
     margin: 10px;
     padding: 15px;
     background-color: rgba(255, 255, 255, 0.316);
@@ -239,7 +239,7 @@
     justify-content: space-around;
     align-items: center;
     position: relative;
-    top: 150px;
+    top: 100px;
     background-color: white;
     width: 1440px;
 }
@@ -296,7 +296,7 @@
     display: flex;
     flex-direction: row;
     position: relative;
-    top: 200px;
+    top: 100px;
     justify-content: space-evenly;
     padding: 20px;
     background-color: white;
@@ -317,10 +317,12 @@
 }
 
 .col-mobile1, .col-mobile2 {
+    display: block;
     justify-content: space-around;
     align-items: center;
     text-align: center;
 }
+
 
 .col-mobile2>h3 {
     font-size: 1.4rem;
@@ -363,7 +365,7 @@
     color: black;
     position: relative;
     background-color: #6173ff1b;
-    top: 200px;
+    top: 120px;
     justify-content: space-around;
     align-items: center;
     padding: 20px;
@@ -450,7 +452,7 @@
     justify-content: center;
     position: relative;
     text-align: center;
-    top: 200px;
+    top: 120px;
     padding: 50px;
     height: 17rem;
     background-color:hsl(171, 49%, 55%);
@@ -488,7 +490,7 @@ footer {
     background-color:black;
     color: white;
     position: relative;
-    top: 200px;
+    top: 120px;
     justify-content: space-evenly;
     width: 1440px;
 }
@@ -647,21 +649,30 @@ footer>.col1>h3 {
         background-color: hsl(171, 49%, 55%);
         width: 100%;
         padding: 10px;
+        height: 25rem;
     }
 
     .container-accroche>.co1>p {
         font-size: 0.6rem;
     }
     .container-accroche>.col2>p {
-        width: 80%;
+        width: 100%;
+        padding: 10px;
         padding-bottom: 0;
         padding-top: 0;
-        font-size: 1.2rem;
+        font-size: 1.3rem;
+    }
+
+    .btn {
+        width: 7.6rem;
+        font-size: 0.8rem;
+        font-weight: 700;
     }
 
     .preview {
         margin-top: 0;
         padding: 0;
+        font-size: 0.8rem;
     }
 
     .container-infos {
@@ -671,12 +682,17 @@ footer>.col1>h3 {
 
     }
     .container-infos>ul {
-        display: flex;
+        display: block;
         align-items: center;
         justify-content: center;
         text-align: center;
         flex-direction: column;
         justify-content: center;
+        padding: 5px;
+    }
+
+    .container-infos>ul>li>p {
+        font-size: 0.8rem;
     }
 
     .container-desc {
@@ -703,7 +719,7 @@ footer>.col1>h3 {
     }
     
     .container-desc p {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
     
     .icone {
@@ -713,7 +729,12 @@ footer>.col1>h3 {
 
     .container-mobile {
         display: block;
+        text-align: center;
         width: 100%;
+    }
+
+    .container-mobile>.col-mobile2>p {
+        text-align: center;
     }
 
     .container-avis {
@@ -723,7 +744,7 @@ footer>.col1>h3 {
 
     .container-avis>.avis {
         display: block;
-        width: 70%;
+        width: 95%;
         padding: 10px;
     }
 
@@ -739,7 +760,8 @@ footer>.col1>h3 {
 
 
     .container-avis>.avis>p {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
+        width: 100%;
     }
 
 .brand-logos>ul {
@@ -763,13 +785,12 @@ footer>.col1>h3 {
 
 .nom {
     color: hsl(171, 49%, 55%);
-    font-weight: 500;
-    font-size: 0.9rem;
+    font-weight: 700;
+    font-size: 0.6rem;
 }
 
 .metier {
     font-size: 0.8rem;
-
 }
 
 .container-telechargement {
@@ -777,7 +798,7 @@ footer>.col1>h3 {
     width: 100%;
 }
 .container-telechargement>h2 {
-    font-size: 2.2rem;
+    font-size: 1.9rem;
 }
 
 footer {
